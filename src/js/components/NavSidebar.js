@@ -57,7 +57,7 @@ class NavSidebar extends Component {
           <Accordion>
             <AccordionPanel heading="First Title">
               <Menu responsive={true} primary={true}>
-                <Anchor path="/dashboard" className="active">
+                <Anchor path="/dashboard">
                   Dashboard
                 </Anchor>
                 <Anchor path="/tasks">Tasks</Anchor>
